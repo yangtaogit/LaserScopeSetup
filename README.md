@@ -8,6 +8,7 @@ Related published results:
 - DOI: https://doi.org/10.1109/LED.2025.3548509  
 
 ## System Layout
+![UV-TCT system layout](./LaserScope_Setup.png)
 
 ## Bill of Materials
 | # | Item | Link | Qty |
