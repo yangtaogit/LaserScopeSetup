@@ -7,7 +7,8 @@ FreeCAD flle: ***LaserScope_Setup.FCStd***
 ## Reference
 
 Related published results:
-- DOI: https://doi.org/10.1109/LED.2025.3548509  
+- DOI: https://doi.org/10.1109/LED.2025.3548509
+- Presentation: https://indico.cern.ch/event/1439336/contributions/6242446/attachments/2980755/5248205/20241205_TaoYang_2nd_DRD3_Workshop.pdf
 
 ## System Layout
 ![UV-TCT system layout](./LaserScope_Setup.png)
