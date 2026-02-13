@@ -34,6 +34,8 @@ Related published results:
 | 17 | Custom Enclosure | https://www.thorlabs.com/optical-enclosure-accessories?aID=a290e45047dd4bf863d57f1160553fb6&aC=2&tabName=Overview | 1 |
 
 ## Picosecond Fiber-Coupled Diode Laser
+**ALPHALAS LD375**: https://www.alphalas.com/products/lasers/picosecond-pulse-diode-lasers-with-driver-picopower-ld-series.html
+![Laser](./PicoPower_LD_375.png)
 
 | Parameter | Specified | Measured | Comment |
 |---|---|---|---|
