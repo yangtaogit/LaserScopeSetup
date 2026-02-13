@@ -2,6 +2,8 @@
 
 This repository documents the setup of the **Ultraviolet Laser Transient Current Technique (UV-TCT)** system installed at **Lawrence Berkeley National Laboratory (LBNL)**.
 
+FreeCAD flle: ***LaserScope_Setup.FCStd***
+
 ## Reference
 
 Related published results:
@@ -30,3 +32,25 @@ Related published results:
 | 15 | MB4545/M Aluminum Breadboard | https://www.thorlabs.com/item/MB4545_M | 1 |
 | 16 | AV6 Sorbothane Feet | https://www.thorlabs.com/item/AV6?aID=7fb6b4c209826817b4ef2e30767dd460&aC=1 | 4 |
 | 17 | Custom Enclosure | https://www.thorlabs.com/optical-enclosure-accessories?aID=a290e45047dd4bf863d57f1160553fb6&aC=2&tabName=Overview | 1 |
+
+## Picosecond Fiber-Coupled Diode Laser
+
+| Parameter | Specified | Measured | Comment |
+|---|---|---|---|
+| Wavelength | 375 (± 5) nm | 373.0 nm | @ 20 MHz |
+| Pulse width (measured)<sup>1</sup> | — | See table below | Pulse width is frequency dependent |
+| Pulse width (after deconvolution)<sup>1</sup> | 30 ps | See table below | — |
+| Repetition rate (external Trigger) | 0–20 MHz | 0–20 MHz | — |
+| Repetition rate (internal frequency generator) | 1 Hz–20 MHz | 1 Hz–20 MHz | Step 1 Hz |
+| Average power (@ 20 MHz)<sup>2</sup> | 600 µW | 655 µW | Measured at fiber output |
+| Peak power<sup>3</sup> (up to 20 MHz) | 1000 mW | &gt; 1130 mW | See table below<br>Measured at fiber output |
+| Fiber coupling | MM, 200 µm core, UV-resistant, FC/PC | MM, 200 µm core, UV-resistant, FC/PC | Coupling efficiency ~ 90% |
+| Fiber connector & mating sleeve | FC/PC | FC/PC | — |
+| Delay LASER OUTPUT to TRIG IN | TYP. 50 ns | 43.2 ns | Measured at fiber output |
+| Delay LASER OUTPUT to SYNC OUT (TTL) | TYP. 35 ns | 30.5 ns | Measured at fiber output |
+| SYNC OUT (TTL) On the front panel | TTL | + 3.3 V into 50 Ω | — |
+| Jitter*: Laser Pulse to External trigger | &lt; 4 ps | &lt; 4 ps | External trigger with rise time &lt; 0.2 ns; amplitude 5 V ± 0.5 V |
+| Jitter*: Laser Pulse to SYNC OUT (TTL) | &lt; 4 ps | &lt; 4 ps | External trigger with rise time &lt; 0.2 ns; amplitude 5 V ± 0.5 V |
+| Jitter*: Laser Pulse to SYNC OUT | &lt; 4 ps | &lt; 4 ps | Internal trigger<br>*These values are valid up-to 20 MHz and amplitude not less than 50% of the maximum one* |
+| LASER ON/OFF input | Not specified | &gt; 3 V → ON<br>&lt; 2 V → OFF | Input impedance 1 kΩ |
+| Laser class | Not specified | 3R | — |
